@@ -1,0 +1,131 @@
+@font-face {
+    src: url("/fonts/JosefinSans-VariableFont_wght.ttf");
+    font-family: "Josefin Sans";
+}
+@font-face {
+    src: url("/fonts/circular-std-medium-500.ttf");
+    font-family: "Circular Std";
+}
+@font-face {
+    src: url("/fonts/Proxima Nova Font.otf");
+    font-family: "Proxima Nova";
+}
+h2{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+.container{
+    padding: 0 130px;
+}
+#herosectionbg{
+    position: absolute;
+    width: 920px;
+    height: 775px;
+    left: 598px;
+    top: -99px;
+    z-index: -1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: rgba(86, 89, 122, 1);
+    text-shadow: 0 2px 7px;
+}
+.nav-logo span{
+    color: #F087B1;;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item{
+    margin-left: 70px;
+}
+.nav-item .bx{
+    font-size: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #AAAAAB;
+}
+.nav-link.nav-active{
+    color: #56597A;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    align-items: center;
+}
+.hero-sub-title{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+    margin-bottom: 30px;
+}
+.hero-title{
+    width: 600px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #56597A;
+    margin-bottom: 30px;
+}
+.hero-text{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+    width: 537px;
+}
+.hero-btn{
+    width: 216px;
+    height: 66px;
+    background: #F78BB6;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+}
+.hero-btn-img{
+    margin: auto auto;
+}
+#bloobs {
+    position: absolute;
+}
