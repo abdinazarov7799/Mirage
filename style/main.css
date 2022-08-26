@@ -25,7 +25,7 @@ body{
     position: absolute;
     width: 920px;
     height: 775px;
-    left: 598px;
+    right: 0;
     top: -99px;
     z-index: -1;
 }
@@ -128,4 +128,71 @@ body{
 }
 #bloobs {
     position: absolute;
+    top: 530px;
+    z-index: -1;
+}
+#bloobs2 {
+    position: absolute;
+    top: 1969.06px;
+    right: 0;
+    z-index: -1;
+}
+.services-title{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+    text-align: center;
+    margin-top: 170px;
+}
+.services-sub-title{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+    color: #56597A;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.services-cards{
+    justify-content: space-around;
+}
+.services-card{
+    background-color: #FFF1F9;
+    border-radius: 8px;
+    width: 270px;
+    height: 307px;
+    padding: 56px 23px 23px 23px;
+    box-sizing: border-box;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+.card-title{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 72px;
+    color: #56597A;
+    text-align: center;
+}
+.card-text{
+    margin: 0 auto;
+    width: 224px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #919299;
+}
+.services-card:hover{
+    background-color: #F78CB6;
 }
