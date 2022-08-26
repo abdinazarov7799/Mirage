@@ -316,3 +316,20 @@ body{
     line-height: 32px;
     color: #ABABAB;
 }
+#partners{
+    width: 1240px;
+    height: 157px;
+}
+.partners-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#bloobs4{
+    position: absolute;
+    right: 0;
+    top: 3817px;
+}
