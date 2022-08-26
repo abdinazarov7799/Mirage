@@ -10,6 +10,7 @@
     src: url("/fonts/Proxima Nova Font.otf");
     font-family: "Proxima Nova";
 }
+
 h2{
     margin: 0;
 }
@@ -79,6 +80,7 @@ body{
     flex-direction: column;
 }
 .hero{
+    justify-content: space-between;
     align-items: center;
 }
 .hero-sub-title{
@@ -122,6 +124,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     border: none;
+    cursor: pointer;
 }
 .hero-btn-img{
     margin: auto auto;
@@ -158,7 +161,7 @@ body{
     margin-bottom: 58px;
 }
 .services-cards{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .services-card{
     background-color: #FFF1F9;
@@ -195,4 +198,121 @@ body{
 }
 .services-card:hover{
     background-color: #F78CB6;
+}
+#artist-section{
+ margin-top: 250px;
+ justify-content: space-between;
+}
+.artist-img{
+    width: 570px;
+    height: 472px;
+}
+.body-title{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+}
+.body-sub-title{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    color: #56597A;
+}
+.body-text{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #919299;
+}
+.artist-title{
+    width: 182px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.artist-sub-title{
+    width: 482px;
+    height: 124px;
+    margin-bottom: 24px;
+}
+.artist-text{
+    width: 500px;
+    height: 123px;
+    margin-bottom: 40px;
+}
+#teamwork-section{
+    margin-top: 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-title{
+    width: 190px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.team-sub-title{
+    width: 488px;
+    height: 124px;
+    margin-bottom: 24px;
+}
+.team-text{
+    width: 500px;
+    height: 123px;
+    margin-bottom: 40px;
+}
+.team-img{
+    width: 587px;
+    height: 587px;
+}
+#bloobs3{
+    position: absolute;
+    top: 2732px;
+}
+#about{
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.about-title{
+    width: 147px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.about-sub-title{
+    width: 506px;
+    height: 124px;
+    margin-bottom: 25px;
+}
+.about-text{
+    width: 400px;
+    height: 140px;
+    margin-bottom: 15px;
+}
+.about-name{
+    width: 192px;
+    height: 32px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #56597A;
+    margin: 0;
+}
+.about-region{
+    width: 144px;
+    height: 32px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ABABAB;
 }
