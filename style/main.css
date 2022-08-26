@@ -15,9 +15,10 @@ h2{
     margin: 0;
 }
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background-color: #e5e5e5;
+    background-color: #fcfcfc;
+    width: 1500px;
 }
 .container{
     padding: 0 130px;
@@ -125,6 +126,13 @@ body{
     line-height: 30px;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-btn i{
+    font-size: 32px;
+    margin-left: 10px;
 }
 .hero-btn-img{
     margin: auto auto;
@@ -133,6 +141,7 @@ body{
     position: absolute;
     top: 530px;
     z-index: -1;
+    left: 0;
 }
 #bloobs2 {
     position: absolute;
@@ -199,6 +208,7 @@ body{
 .services-card:hover{
     background-color: #F78CB6;
 }
+
 #artist-section{
  margin-top: 250px;
  justify-content: space-between;
@@ -273,6 +283,7 @@ body{
 #bloobs3{
     position: absolute;
     top: 2732px;
+    left: 0;
 }
 #about{
     margin-top: 200px;
